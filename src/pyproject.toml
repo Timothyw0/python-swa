@@ -3,13 +3,12 @@ name = "basic-django"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Timothy Wang ",email = "timothywang@microsoft.com"}
+    "Timothy Wang"
 ]
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "django (>=5.1.5,<6.0.0)"
-]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
